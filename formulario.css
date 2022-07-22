@@ -1,0 +1,49 @@
+h1 {
+    margin: 1% 5%;
+}
+
+p {
+    margin: 1% 4%;
+}
+
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 1% 5% 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 1% 5% 20px;
+    padding: 10px 15px;
+    width: 35%;
+}
+
+#receber-novidades {
+    display: inline;
+    margin-left: 5%;
+}
+
+.receber-novidades {
+    display: inline;
+    margin-left: 10px;
+}
+
+#enviar-formulario {
+    display: block;
+    margin: 20px 150px;
+    padding: 10px 100px;
+    border-radius: 5px;
+    background-color: rgb(44, 137, 29);
+    border-color: rgb(44,137,29);
+    color:rgb(217, 217, 217);
+    font-size: large;
+    font-weight: bold;
+}
+
+#enviar-formulario:hover {
+    size: larger;
+    background-color: rgb(64, 196, 43);
+    border-color: rgb(64, 196, 43);
+    font-size: larger;
+}

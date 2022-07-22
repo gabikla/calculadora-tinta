@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fale com a gente! - Calculadora de Tinta</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="formulario.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">PÁGINA INICIAL</a></li>
+                    <li><a href="calculadora.html">CALCULADORA</a></li>
+                    <li><a href="formulario.html">FALE CONOSCO</a></li>
+                </ul>
+            </nav>        
+        </header>
+        <main>
+            <h1>Fale com a gente!</h1>
+            <p>Ficou com alguma dúvida? Tem críticas ou sugestões? Nos conta aqui!</p>
+            <form>
+                <label for="nome-completo">Nome completo</label>
+                <input type="text" id="nome-completo" class="input-padrao" required placeholder="Nome Sobrenome"> 
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="email@dominio.com"> 
+
+                <label for="mensagem">Digite sua mensagem:</label>
+                <textarea cols="50" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                <input type="checkbox" id="receber-novidades" checked>
+                <label class="receber-novidades">Quero receber novidades do site por email!</label>
+
+                <input type="submit" id="enviar-formulario" value="Enviar">
+
+            </form>
+        </main>
+        <script src="validacaoFormulario.js"></script>
+        <footer>
+            <p>  </p>
+            <p>© 2022</p>
+            <p>  </p>
+        </footer>
+    </body>
+</html>

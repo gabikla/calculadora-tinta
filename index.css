@@ -1,0 +1,31 @@
+h1 , p {
+    text-align: center;
+}
+
+
+#ir-calculadora {
+    display: block;
+    margin: 20px 40%;
+    padding: 15px 100px;
+    border-radius: 5px;
+    background-color: rgb(44, 137, 29);
+    border: none;
+    color:rgb(217, 217, 217);
+    font-size: large;
+    font-weight: bold;
+}
+
+#ir-calculadora:hover {
+    size: larger;
+    background-color: rgb(64, 196, 43);
+    border: none;
+    font-size: larger;
+}
+
+#regras {
+    margin: 10px 35%;
+}
+
+.regra {
+    padding: 5px 0;
+}
